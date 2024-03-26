@@ -5,20 +5,9 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <title>Notice Board</title>
+    <title>Insert Your Title</title>
 </head>
 <body>
-
-    <h1>자유게시판</h1>
-
-    <div>
-        <ul>글쓰기</ul>
-        <ul></ul>
-        <ul></ul>
-
-    </div>
-
-    
 
     
 </body>
