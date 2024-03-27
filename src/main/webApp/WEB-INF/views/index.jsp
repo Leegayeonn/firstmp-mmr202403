@@ -33,19 +33,8 @@
 
             <!-- login -->
             <div id = "login">
-                <h3>로그인</h3>
+                <a href="#">로그인</a>
 
-        <form action="/hw/s-login-check" method="post">
-            <label>
-                # 아이디 : <input type="text" name="id">
-            </label>
-            <label>
-                # 비밀번호 : <input type="password" name="pw">
-            </label>
-            <input id="login-tag" type="hidden" name="login">
-            <label>
-                <button type="submit">로그인</button>
-            </label>
 
             </div>
             
