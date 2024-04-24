@@ -39,6 +39,20 @@ dependencies {
 	// Spring Framework 에서 JDBC 를 좀 더 쉽게 사용할 수 있게 해주는 라이브러리
 	implementation 'org.springframework.boot:spring-boot-starter-jdbc:3.2.4'
 
+	// 마이바티스 라이브러리
+	// Spring Boot 3에서는 mybatis 3.x 버전으로 진행하세요.
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:3.0.3'
+
+	// 입력값 검증 라이브러리
+	implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+	//스프링 시큐리티 모듈
+	implementation 'org.springframework.boot:spring-boot-starter-security'
+
+	// json-simple: 문자열 JSON 데이터를 진짜 JSON으로 변환 및 데이터 취득을 도와주는 라이브러리
+	implementation 'com.googlecode.json-simple:json-simple:1.1.1'
+
+
 }
 
 tasks.named('test') {
