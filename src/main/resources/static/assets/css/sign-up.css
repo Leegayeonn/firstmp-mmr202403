@@ -1,0 +1,11 @@
+.sign-container {
+    width: 800px;
+    height: 500px;
+    margin: 100px auto;
+    background-color: aquamarine;
+}
+.sign-container h1 {
+    text-align: center;
+    color: aliceblue;
+    padding: 10px 0; 
+}

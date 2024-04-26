@@ -5,14 +5,13 @@
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
-    <%@ include file="include/static-header.jsp"%>
-    <title>MMR MAIN</title>
-    
+    <%@ include file="static-header.jsp"%>
+    <title>Insert Your Title</title>
 </head>
 <body>
     <header>
         <div class="head-logo"><img src="/assets/img/mmrLogo-text.png" alt="로고"></div>
-        <!-- <c: 사용해서 추후 조건문 추가 -->
+<%--        <c: 사용해서 추후 조건문 추가 --%>
         <div class="head-items">
             <a href="#">로그인</a>
             <span class="head-line"></span>
