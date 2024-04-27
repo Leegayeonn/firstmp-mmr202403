@@ -1,3 +1,5 @@
+
+
 /* 사이드 배너 스타일 */
 
 .side-banner {
@@ -35,11 +37,12 @@
 }
 /* 상단 메인 배너 슬라이드 스타일 */
 .swiper {
+    margin-top: 30px;
     width: 70%;
     margin-bottom: 100px;
 }
 
-/* 하단 게피나 미리보기 영역 스타일 */
+/* 하단 게시판 미리보기 영역 스타일 */
 section {
 }
 .preview-container {
@@ -48,23 +51,24 @@ section {
     background-color: rgb(121, 41, 41);
     margin: 0 auto 50px;
 }
-.preview-container h1 {
-    color: aliceblue;
-    text-align: center;
-    margin: 10px 0;
-}
 .preview-list {
-    width: 90%;
-    height: 85%;
-    margin: 0 auto;
-    background-color: aliceblue;
-}
-.preview-list li {
+    background-color: antiquewhite;
     width: 100%;
-    display: flex;
 }
-.preview {
-    background-color: bisque;
-    display: flex;
-    justify-content: space-between;
+.preview-list th {
+    border-bottom: 1px solid black;
+}
+.preview-content {
+    border-bottom: 1px solid black;
+    height: 30px;
+    line-height: 30px;
+}
+.pre-date ,
+.preview-content td:last-child {
+    text-align: center;
+}
+
+.preview-content td:first-child,
+.preview-content td:nth-child(2) {
+    padding-left: 10px;
 }

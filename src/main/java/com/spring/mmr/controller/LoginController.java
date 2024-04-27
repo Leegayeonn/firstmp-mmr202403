@@ -14,7 +14,7 @@ public class LoginController {
 
     private final LoginService service;
 
-    // 로그인 화면 출력
+//     로그인 화면 출력
     @GetMapping("/loginMain")
     public String loginMain() {
 
